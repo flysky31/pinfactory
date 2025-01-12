@@ -356,19 +356,16 @@ body {
 
 .login {
   height: 100vh;
-  padding-top: 180px;
-  padding-bottom: 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
-@media (max-width: 768px) {
-  .login {
-    padding-top: 100px;
-    padding-bottom: 40px;
-  }
-}
+
 .login article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width:100%;
   justify-content: space-between;
   height: calc(100vh - 240px);
 }
