@@ -133,18 +133,18 @@ input[type=number] {
   border-color: #9333c2;
 }
 #container #prod .inner .prod-list {
-  padding: 30px 0;
+  padding: 50px 0 0;
 }
 #container #prod .inner .prod-list ul {
   display: flex;
   flex-wrap: wrap;
 }
 #container #prod .inner .prod-list ul li {
-  width: calc((100% - 60px) / 3);
-  margin-right: 30px;
+  width: calc((100% - 100px) / 3);
+  margin-right: 50px;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 #container #prod .inner .prod-list ul li:nth-child(3n) {
   margin-right: 0;
@@ -152,6 +152,8 @@ input[type=number] {
 #container #prod .inner .prod-list ul li a figure img {
   display: block;
   margin-bottom: 10px;
+  width:70%;
+  margin:0 auto;
 }
 #container #prod .inner .prod-list ul li a figure figcaption {
   text-align: center;
