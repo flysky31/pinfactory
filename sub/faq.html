@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>핀팩토리 faq</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
+    <link rel="stylesheet" href=".https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c56cffabac.js" crossorigin="anonymous"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner">
+          <div class="header-top">
+            <h1>
+              <a href="../index.html"><img src="../img/logo.png" alt="" /></a>
+            </h1>
+
+            <div class="m_wrapper_btn">
+              <div class="m_menu_ico">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-bottom">
+            <h2><span>로그인</span>을 해주세요</h2>
+            <ul>
+              <li><a href="../../sub/inc/login.html">로그인</a></li>
+              <li><a href="../../sub/inc/register.html">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="mgnb_wrap" id="mgnbWrap">
+        <nav>
+            <ul id="mgnb" class="mgnb">
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-notice.png" alt="">
+                            <figcaption>공지사항</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-faq.png" alt="">
+                            <figcaption>FAQ</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-barcord.png" alt="">
+                            <figcaption>구매코드 확인</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-coupon.png" alt="">
+                            <figcaption>구매 상품권</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-cart.png" alt="">
+                            <figcaption>장바구니</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-mypage.png" alt="">
+                            <figcaption>마이페이지</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <div class="m-bottom-btn">
+                <a href="#!" >개인정보 수정하기</a>
+                <a href="#!" class="btn_out">탈퇴하기</a>
+            </div>
+        </nav>
+      </div>
+      <main id="contentsWrap" class="container">
+        <section id="sub-visual">
+            <article class="sub-visual">
+                <figure>
+                    <img src="../img/order-comp-bg.png" alt="" />
+                </figure>
+                <div class="sub-tit2">
+                    <h2>FAQ</h2>
+                </div>
+            </article>
+        </section>
+        <section class="main-section">
+            <div class="wrap-main">
+                <div class="wrap-left">
+                    <div class="">
+                        <div class=" ">
+                            <h1>FAQ</h1>
+                        </div>
+                    </div>
+                    <div class="boxy-warp sub-contents">
+                        <div class="r-sub-con">
+                            <div id="bo_list" style="width:100%">
+                                    <div id="bo_btn_top">
+                                        <div id="bo_list_total">
+                                                <span>Total 5건</span>
+                                                1 페이지
+                                        </div>                    
+                                    </div>
+                                    <form name="fboardlist" id="fboardlist" action="" onsubmit="return fboardlist_submit(this);" method="post">
+                                    <input type="hidden" name="bo_table" value="notice">
+                                    <input type="hidden" name="sfl" value="">
+                                    <input type="hidden" name="stx" value="">
+                                    <input type="hidden" name="spt" value="">
+                                    <input type="hidden" name="sca" value="">
+                                    <input type="hidden" name="sst" value="wr_num, wr_reply">
+                                    <input type="hidden" name="sod" value="">
+                                    <input type="hidden" name="page" value="1">
+                                    <input type="hidden" name="sw" value="">
+
+                                    <div class="bo_list_head">
+                                        <ul>
+                                            <li>
+                                                <span class="s-number">번호</span>
+                                                <span class="s-name">제목</span>
+                                                <span class="s-user">글쓴이</span>
+                                                <span class="s-view"><a href="">조회 <i class="fa fa-sort" aria-hidden="true"></i></a></span>
+                                                <span class="s-day"><a href="">날짜  <i class="fa fa-sort" aria-hidden="true"></i></a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="bo_list">
+                                            <ul> 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <공통> 구매코드 확인 방법												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <폰결제몰> 결제시 승인이 거부나는 경우												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <메인몰> 발송 운영 시간												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <공통> 네이버로그인 추가 인증 절차 안내												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <공통> 부정거래로 판단되어 환불이 지연 되는 경우												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <카드몰> 신용카드 결제했는데 상품권 발권이 안되고 있어요.												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <메인몰> 환불 진행시 저희측으로 알려주셔야 할 사항												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+ 
+                                                <li class="">
+                                                    <span class="s-number mobile_none">
+                                                        <div class="mobile_none">5</div>								
+                                                    </span>                    
+                                                    <span class="s-name" style="padding-left:0px">
+                                                        <div class="bo_tit">
+                                                              <메인몰> 포인트 사용방법												 
+                                                            <i class="fa fa-heart" aria-hidden="true"></i>																	
+                                                        </div>                    
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <!-- <div class="bo_fx">
+                                        <ul class="btn_bo_user">
+                                            <li>
+                                                <button type="submit" name="btn_submit" value="선택삭제" onclick="document.pressed=this.value" class="btn btn_admin">선택삭제</button>
+                                            </li>
+                                            <li>
+                                                <button type="submit" name="btn_submit" value="선택복사" onclick="document.pressed=this.value" class="btn btn_admin">선택복사</button>
+                                            </li>
+                                            <li>
+                                                <button type="submit" name="btn_submit" value="선택이동" onclick="document.pressed=this.value" class="btn btn_admin">선택이동</button>
+                                            </li>
+                                            <li>
+                                                <a href="https://pinfactory.co.kr/board/write/faq" class="btn_b02 btn">글쓰기</a>
+                                            </li>						
+                                        </ul>
+                                    </div> -->
+                                    </form>                                   
+                                     
+                                    <fieldset id="bo_sch">
+                                        <legend>게시물 검색</legend>                    
+                                        <form name="fsearch" method="get">
+                                        <input type="hidden" name="bo_table" value="notice">
+                                        <input type="hidden" name="sca" value="">
+                                        <input type="hidden" name="sop" value="and">
+                                        <select name="sfl" id="sfl">
+                                                <option value="wr_subject">제목</option>
+                                                <option value="wr_content">내용</option>
+                                                <option value="wr_subject||wr_content">제목+내용</option>
+                                                <option value="mb_id,1">회원아이디</option>
+                                                <option value="mb_id,0">회원아이디(코)</option>
+                                                <option value="wr_name,1">글쓴이</option>
+                                                <option value="wr_name,0">글쓴이(코)</option>
+                                        </select>
+                                        <input type="text" name="stx" value="" required id="stx" class="sch_input" size="25" maxlength="20" placeholder="검색어를 입력해주세요">
+                                        <button type="submit" value="검색" class="sch_btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                    </fieldset> 
+                            </div>
+                            <nav class="pg_wrap">
+                              
+                                <span class="pg">
+                                    <a href="" class="pg_page pg_start">처음</a>
+                                    <!-- <a href="" class="pg_page">1<span class="sound_only">페이지</span></a> -->
+                                    
+                                    <span class="sound_only">열린</span><strong class="pg_current">1</strong>
+                                    <span class="sound_only">페이지</span>
+                                    <a href="" class="pg_page">2<span class="sound_only">페이지</span></a>
+                                    <a href="" class="pg_page pg_end">맨끝</a>
+                                </span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="inner">
+            <figure>
+              <img src="../img/saletime.png" alt="" />
+              <figcaption>
+                홈페이지 판매
+                <br />
+                <span>연중 무휴 24시간 자동 운영</span>
+              </figcaption>
+            </figure>
+            <div class="counseling">
+              <figure>
+                <img src="../img/ico-counseling2.png" alt="" />
+                <figcaption>010-9351-5185</figcaption>
+              </figure>
+              <ul>
+                <li>
+                  상담원 연락 가능 시간 : 오전 10시 ~ 새벽 1시 <br />(전화,
+                  문자, 카카오톡)
+                </li>
+                <li>
+                  그 외 시간은 <span>1:1 문의</span>를 통해 상담 요청
+                  가능합니다.
+                </li>
+              </ul>
+              <a href="#!">1:1 문의 바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="fb-top">
+              <div class="inner">
+              <figure>
+                <img src="../img/logo.png" alt="" />
+              </figure>
+
+              <ul>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-facebook.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-instagram.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-youtube.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="fb-mid">
+              <div class="inner">
+                <ul>
+                  <li><a href="#!">회사소개</a></li>
+                  <li><a href="../sub/agree.html">이용약관</a></li>
+                  <li><a href="#!">상품권 이용약관</a></li>
+                  <li><a href="../sub/privacy.html">개인정보처리 방침</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="fb-bot">
+              <div class="inner">
+              <p>통신판매업신고번호 : 제 2017-성남분당-0873호</p>
+              <p><a href="#!">[사업자정보확인]</a></p>
+              <p>
+                주소 : 경기도 성남시 분당구 백현로 97,12층 1233호(수내동
+                수내동다운 타운) | 대표번호 : 010-9351-5185 | 카카오톡 ID :
+                pinfactory55 이메일 : pinfactory55@gmail.com
+              </p>
+            </div>
+          </div>
+          <p class="copy">Copyright. ⓒ 핀팩토리. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <div class="gotop">
+        <a href="#">
+            <img src="../img/top-btn.png" alt="">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
