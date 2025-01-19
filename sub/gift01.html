@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>핀팩토리 스타벅스</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/common_cash.css" />
+    <link rel="stylesheet" href="../css/style_cash.css" />
+    <link rel="stylesheet" href="../css/sub_cash.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner">
+          <div class="header-top">
+            <h1>
+              <a href="../index.html"><img src="../img/logo.png" alt="" /></a>
+            </h1>
+
+            <div class="m_wrapper_btn">
+              <div class="m_menu_ico">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-bottom">
+            <h2><span>로그인</span>을 해주세요</h2>
+            <ul>
+              <li><a href="../../sub/inc/login.html">로그인</a></li>
+              <li><a href="../../sub/inc/register.html">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="mgnb_wrap" id="mgnbWrap">
+        <nav>
+            <ul id="mgnb" class="mgnb">
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-notice.png" alt="">
+                            <figcaption>공지사항</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-faq.png" alt="">
+                            <figcaption>FAQ</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-barcord.png" alt="">
+                            <figcaption>구매코드 확인</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-coupon.png" alt="">
+                            <figcaption>구매 상품권</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-cart.png" alt="">
+                            <figcaption>장바구니</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <figure>
+                            <img src="../img/menu-ico-mypage.png" alt="">
+                            <figcaption>마이페이지</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <div class="m-bottom-btn">
+                <a href="#!" >개인정보 수정하기</a>
+                <a href="#!" class="btn_out">탈퇴하기</a>
+            </div>
+        </nav>
+      </div>
+      <style>
+        #container #sub-cont .item-datail .item-datil-wrap article img {
+          max-width: 100%;
+          margin: 0 auto;
+      }
+      </style>
+      <main id="container">
+        <section id="menu_area" class="">
+          <article class="">
+            <div class="top_category">
+              <ul class="tabs_area inner">
+                <!-- all 고정탭 -->
+                <li class="tab-link current first" data-tab="tab-1"><a href="https://pinfactory.co.kr/coupon/lists"><img src="https://pinfactory.co.kr/upfiles/product/all.png" alt=""></a></li>
+                <li class="tab_swiper">
+                  <div class="swiper menuSwiper">
+                    <ol class="swiper-wrapper">
+                      <!-- 추가될 경우 data-tab="tab-2"  여기 숫자 바뀌어야 함-->
+                        <li class="tab-link swiper-slide" data-tab="tab-2"><a href="https://pinfactory.co.kr/coupon/lists/GFC0042"><img src="/upfiles/product/7f1de864831b35bcabb4de9d21d69a1a.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-3"><a href="https://pinfactory.co.kr/coupon/lists/GFC0030"><img src="/upfiles/product/bac670336d2b5cc03014a2d13231ebb4.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-4"><a href="https://pinfactory.co.kr/coupon/lists/GFC0079"><img src="/upfiles/product/57504869aa3585537f61338ba599e057.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-5"><a href="https://pinfactory.co.kr/coupon/lists/GFC0003"><img src="/upfiles/product/aa0d7c3efab88b52f9d898549745a95c.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-6"><a href="https://pinfactory.co.kr/coupon/lists/GFC0058"><img src="/upfiles/product/a3e2ac6a650c5f74013f58aecccb62f4.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-7"><a href="https://pinfactory.co.kr/coupon/lists/GFC0004"><img src="/upfiles/product/fc23267d1d8cbc979458c339be846473.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-8"><a href="https://pinfactory.co.kr/coupon/lists/GFC0031"><img src="/upfiles/product/d9b584d7e429718c9cdc3ae958abcd17.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-9"><a href="https://pinfactory.co.kr/coupon/lists/GFC0001"><img src="/upfiles/product/1f5875128d29def52ad0f63aca1ae4a6.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-10"><a href="https://pinfactory.co.kr/coupon/lists/GFC0020"><img src="/upfiles/product/95343ea73603f753430c7897a2042f2f.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-11"><a href="https://pinfactory.co.kr/coupon/lists/GFC0064"><img src="/upfiles/product/bd07eb86c8550af3dd31e36fa37715e2.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-12"><a href="https://pinfactory.co.kr/coupon/lists/GFC0090"><img src="/upfiles/product/f6001820d0ef9da120a6259bf7bd7557.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-13"><a href="https://pinfactory.co.kr/coupon/lists/GFC0061"><img src="/upfiles/product/fe7fc09bea524d92986bdc7a3b77abab.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-14"><a href="https://pinfactory.co.kr/coupon/lists/GFC0016"><img src="/upfiles/product/94115c2c98684bd5274f41d32d9487fc.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-15"><a href="https://pinfactory.co.kr/coupon/lists/GFC0022"><img src="/upfiles/product/7f957c0b922b740d98eb7869fd585920.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-16"><a href="https://pinfactory.co.kr/coupon/lists/GFC0021"><img src="/upfiles/product/8aa16dcb95ac884daff607050bcb38ac.png" alt=""></a></li>
+                        <li class="tab-link swiper-slide" data-tab="tab-17"><a href="https://pinfactory.co.kr/coupon/lists/GFC0023"><img src="/upfiles/product/1a95733a0309411469adb4286bb1672c.png" alt=""></a></li>
+                    </ol>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <!-- 추가될 경우 id="tab-1" 여기 숫자 바뀌어야 함-->
+              <div id="tab-1" class="tab-content current">
+                <div class="title">
+                  <h3>파리바게뜨</h3>
+                </div>
+                <ul id="prod_list" class="inner">
+                            </ul>
+                
+                <div class="mb-4">
+                  <!--button type="button" class="btn btn-primary">더보기</button-->
+                  <a href="javascript:load_prod();" class="more"> 더 보 기 </a>
+                </div>
+      
+              </div>
+      
+            </div>
+          </article>
+      
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="inner">
+            <figure>
+              <img src="../img/saletime.png" alt="" />
+              <figcaption>
+                홈페이지 판매
+                <br />
+                <span>연중 무휴 24시간 자동 운영</span>
+              </figcaption>
+            </figure>
+            <div class="counseling">
+              <figure>
+                <img src="../img/ico-counseling2.png" alt="" />
+                <figcaption>010-9351-5185</figcaption>
+              </figure>
+              <ul>
+                <li>
+                  상담원 연락 가능 시간 : 오전 10시 ~ 새벽 1시 <br />(전화,
+                  문자, 카카오톡)
+                </li>
+                <li>
+                  그 외 시간은 <span>1:1 문의</span>를 통해 상담 요청
+                  가능합니다.
+                </li>
+              </ul>
+              <a href="#!">1:1 문의 바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="fb-top">
+              <div class="inner">
+              <figure>
+                <img src="../img/logo.png" alt="" />
+              </figure>
+
+              <ul>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-facebook.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-instagram.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <img src="../img/ico-youtube.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="fb-mid">
+              <div class="inner">
+                <ul>
+                  <li><a href="#!">회사소개</a></li>
+                  <li><a href="../sub/agree.html">이용약관</a></li>
+                  <li><a href="#!">상품권 이용약관</a></li>
+                  <li><a href="../sub/privacy.html">개인정보처리 방침</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="fb-bot">
+              <div class="inner">
+              <p>통신판매업신고번호 : 제 2017-성남분당-0873호</p>
+              <p><a href="#!">[사업자정보확인]</a></p>
+              <p>
+                주소 : 경기도 성남시 분당구 백현로 97,12층 1233호(수내동
+                수내동다운 타운) | 대표번호 : 010-9351-5185 | 카카오톡 ID :
+                pinfactory55 이메일 : pinfactory55@gmail.com
+              </p>
+            </div>
+          </div>
+          <p class="copy">Copyright. ⓒ 핀팩토리. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <div class="gotop">
+        <a href="#">
+            <img src="../img/top-btn.png" alt="">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
