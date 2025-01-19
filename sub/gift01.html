@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>핀팩토리 스타벅스</title>
+    <title>핀팩토리 파리바게트</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../css/common_cash.css" />
@@ -992,3 +992,22 @@
     </div>
   </body>
 </html>
+<script>
+  $(document).ready(function () {
+  $(".tab").click(function () {
+    // 모든 탭에서 'active' 클래스 제거
+    $(".tab").removeClass("active");
+    // 클릭한 탭에 'active' 클래스 추가
+    $(this).addClass("active");
+
+    // 모든 탭 내용 숨기기
+    $(".tab-content").hide();
+    // 클릭한 탭에 해당하는 탭 내용 표시
+    var tabIndex = $(this).index();
+    $(".tab-content:eq(" + tabIndex + ")").show();
+  });
+
+  // 초기에 첫 번째 탭을 활성화
+  $(".tab:first").click();
+});
+</script>
