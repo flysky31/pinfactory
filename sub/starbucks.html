@@ -372,3 +372,76 @@
     </div>
   </body>
 </html>
+<script>
+  var csrfToken = "5c843388568b478f1cf5851aa495bd92";
+
+  $(".decrease").click(function () {
+    var input = $(this).siblings('input[type="number"]');
+    var value = parseInt(input.val()) - 1;
+    if (value >= 0) {
+      input.val(value);
+    }
+    update_price();
+  });
+
+  // "증가" 버튼 클릭 시
+  $(".increase").click(function () {
+    var input = $(this).siblings('input[type="number"]');
+    var value = parseInt(input.val()) + 1;
+    input.val(value);
+    update_price();
+  });
+
+$(".pids").on("input", function() {
+  update_price();
+});
+
+function update_price() {
+  var total_price = 0;
+  $('.pids').each(function(){
+    var price = $(this).data('price');
+    var ea = $(this).val();
+    var sub_price = price * ea;
+    total_price = total_price + sub_price;
+  });
+  $('#total_price').text(total_price.toLocaleString('ko-KR'));
+}
+
+$(document).ready(function () {
+  $(".tab").click(function () {
+    // 모든 탭에서 'active' 클래스 제거
+    $(".tab").removeClass("on");
+    // 클릭한 탭에 'active' 클래스 추가
+    $(this).addClass("on");
+
+    // 모든 탭 내용 숨기기
+    $(".tab-pane").hide();
+    // 클릭한 탭에 해당하는 탭 내용 표시
+    var tabIndex = $(this).index();
+    $(".tab-pane:eq(" + tabIndex + ")").show();
+  });
+
+  // 초기에 첫 번째 탭을 활성화
+  $(".tab:first").click();
+});
+
+$(function(){
+  $('#max-sale').text('최대 5%');
+});
+</script>
+
+<script>
+function buy() {
+  alert("로그인을 해주세요.");
+  location.replace("/member/login?url=/gift/view/sb");
+  return false;
+}
+
+function addCart() {
+  alert("로그인을 해주세요.");
+  location.replace("/member/login?url=/gift/view/sb");
+  return false;
+}
+</script>
+
+
