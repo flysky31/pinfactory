@@ -24,9 +24,9 @@ $(document).ready(function () {
     $('.prod-btn li').click(function(){
         $('.prod-btn li').removeClass('on');
         $(this).addClass('on');
-    });
+    })
 
-    
+
     $('.tab-link').click(function(){
         var tab_id = $(this).attr('data-tab');
 
@@ -37,6 +37,8 @@ $(document).ready(function () {
         $("#" + tab_id).addClass('current');
     });
 
+
+    //硫붾돱�섏씠吏� �� 濡ㅻ쭅
     var swiper = new Swiper(".menuSwiper", {
         slidesPerView: "auto",
         navigation: {
@@ -56,5 +58,6 @@ $(document).ready(function () {
             
         // },
     });
-
+ 
 });
+설명
