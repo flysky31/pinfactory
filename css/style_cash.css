@@ -1019,6 +1019,9 @@ input[type=number] {
   width: 45%;
   margin: 0 5% 50px 0;
 }
+#container #menu_area .tab-content li.hidden{
+  display:none;
+}
 #container #menu_area .tab-content li:nth-of-type(2n) {
   margin: 0 0 50px 0;
 }
