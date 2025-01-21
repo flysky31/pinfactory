@@ -73,13 +73,11 @@ document.addEventListener('DOMContentLoaded', function() {
   loadMoreBtn.addEventListener('click', function() {
     const hiddenThumbnails = document.querySelectorAll('.thumbnail.hidden');
 
-    if (hiddenThumbnails.length > 0) {
-      hiddenThumbnails[0].classList.remove('hidden');
-    }
+    hiddenThumbnails.forEach(function(thumbnail) {
+      thumbnail.classList.remove('hidden');
+    });
 
-    if (document.querySelectorAll('.thumbnail.hidden').length === 0) {
-      loadMoreBtn.style.display = 'none';
-    }
+    loadMoreBtn.style.display = 'none';
   });
 });
 
