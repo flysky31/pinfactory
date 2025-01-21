@@ -26,6 +26,17 @@ $(document).ready(function () {
         $(this).addClass('on');
     });
 
+    
+    $('.tab-link').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('.tab-link').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+    });
+
     var swiper = new Swiper(".menuSwiper", {
         slidesPerView: "auto",
         navigation: {
