@@ -60,7 +60,7 @@ $(document).ready(function () {
     });
  
 });
-
+/*
 
 document.addEventListener('DOMContentLoaded', function() {
   const loadMoreBtn = document.querySelectorAll('.more');
@@ -78,6 +78,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     loadMoreBtn.style.display = 'none';
+  });
+});
+*/
+document.addEventListener('DOMContentLoaded', function() {
+  // 모든 thumbnail-container에 대해 처리
+  const containers = document.querySelectorAll('.thumbnail-container');
+
+  containers.forEach(container => {
+    const loadMoreBtn = container.querySelector('.more');
+    const thumbnails = container.querySelectorAll('.thumbnail');
+
+    // 처음 6개 썸네일만 노출하고 나머지 썸네일은 숨김
+    for (let i = 6; i < thumbnails.length; i++) {
+      thumbnails[i].classList.add('hidden');
+    }
+
+    // 더보기 버튼 클릭 시 숨겨진 썸네일들을 모두 노출
+    loadMoreBtn.addEventListener('click', function() {
+      const hiddenThumbnails = container.querySelectorAll('.thumbnail.hidden');
+
+      hiddenThumbnails.forEach(function(thumbnail) {
+        thumbnail.classList.remove('hidden');
+      });
+
+      // 모든 썸네일이 노출되면 더보기 버튼 숨김
+      loadMoreBtn.style.display = 'none';
+    });
   });
 });
 
