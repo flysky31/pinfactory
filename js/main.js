@@ -61,3 +61,19 @@ $(document).ready(function () {
  
 });
 
+
+
+document.getElementById('loadMoreBtn').addEventListener('click', function() {
+  const hiddenThumbnails = document.querySelectorAll('.thumbnail.hidden');
+
+  // 첫 번째 숨겨진 썸네일을 보여준다.
+  if (hiddenThumbnails.length > 0) {
+    hiddenThumbnails[0].classList.remove('hidden');
+  }
+
+  // 더 이상 숨겨진 썸네일이 없으면 버튼을 숨긴다.
+  if (document.querySelectorAll('.thumbnail.hidden').length === 0) {
+    this.style.display = 'none';
+  }
+});
+
