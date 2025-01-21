@@ -41,8 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin: 0 auto;
-    margin-top: 24px;
+    margin: 25px auto 50px;
 }
 #header {
   border-bottom: 1px solid #ddd;
