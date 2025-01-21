@@ -66,20 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const loadMoreBtn = document.getElementById('loadMoreBtn');
   const thumbnails = document.querySelectorAll('.thumbnail');
 
-  // 처음 6개만 노출하고 나머지는 숨김 처리
   for (let i = 6; i < thumbnails.length; i++) {
     thumbnails[i].classList.add('hidden');
   }
 
   loadMoreBtn.addEventListener('click', function() {
-    // 숨겨진 썸네일을 찾아서 하나씩 노출
     const hiddenThumbnails = document.querySelectorAll('.thumbnail.hidden');
 
     if (hiddenThumbnails.length > 0) {
       hiddenThumbnails[0].classList.remove('hidden');
     }
 
-    // 숨겨진 썸네일이 더 이상 없으면 '더보기' 버튼을 숨김
     if (document.querySelectorAll('.thumbnail.hidden').length === 0) {
       loadMoreBtn.style.display = 'none';
     }
