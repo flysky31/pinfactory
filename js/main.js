@@ -24,6 +24,26 @@ $(document).ready(function () {
     $('.prod-btn li').click(function(){
         $('.prod-btn li').removeClass('on');
         $(this).addClass('on');
-    })
+    });
+
+    var swiper = new Swiper(".menuSwiper", {
+        slidesPerView: "auto",
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+        },
+        //loop:true,
+        // breakpoints: {
+        //     768: {
+        //         slidesPerView: 4,
+                
+        //     },
+            
+        // },
+    });
 
 });
