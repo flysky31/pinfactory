@@ -29,7 +29,19 @@ body {
     width: calc(100% - 34px);
     margin: 0 auto;
 }
-
+#loadMoreBtn{
+  display: flex;
+    background: #9333c2;
+    color: #fff;
+    font-weight: 800;
+    max-width: 203px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
 #header {
     border-bottom: 1px solid #ddd;
     transition: .5s;
