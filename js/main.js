@@ -38,7 +38,7 @@ $(document).ready(function () {
     });
 
 
-    //硫붾돱�섏씠吏� �� 濡ㅻ쭅
+
     var swiper = new Swiper(".menuSwiper", {
         slidesPerView: "auto",
         navigation: {
