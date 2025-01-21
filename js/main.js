@@ -63,7 +63,7 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const loadMoreBtn = document.querySelectorAll('loadMoreBtn');
   const thumbnails = document.querySelectorAll('.thumbnail');
 
   for (let i = 6; i < thumbnails.length; i++) {
