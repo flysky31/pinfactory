@@ -1053,7 +1053,7 @@ input[type=number] {
 
 @media (max-width: 640px) {
   #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper {
-    padding: 0 30px;
+    margin: 0 30px;
     padding-bottom: 7px;
   }
   #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-next::after, #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-prev::after {
@@ -1062,7 +1062,7 @@ input[type=number] {
 }
 @media (max-width: 480px) {
   #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper {
-    padding: 0 24px;
+    margin: 0 24px;
     padding-bottom: 5px;
   }
   #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-next::after, #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-prev::after {
