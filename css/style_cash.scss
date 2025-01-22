@@ -1077,18 +1077,6 @@ input[type="number"] {
                             margin: 0 36px;
                             padding-bottom: 7px;
                             overflow:hidden;
-
-                            .swiper-button-next,.swiper-button-prev {
-                                color: #fff;
-                            }
-
-                            .swiper-button-next {
-                                right: 0;
-                            }
-                            .swiper-button-prev {
-                                left: 0;
-                            }
-
                             .swiper-scrollbar {
                                 background: rgba(255,255,255,0.25);
                                 bottom: 0;
@@ -1098,6 +1086,17 @@ input[type="number"] {
                                 }
                             }
                         }
+                        .swiper-button-next,.swiper-button-prev {
+                            color: #fff;
+                        }
+
+                        .swiper-button-next {
+                            right: 0;
+                        }
+                        .swiper-button-prev {
+                            left: 0;
+                        }
+
                     }
                 }
                 .tab-link{
