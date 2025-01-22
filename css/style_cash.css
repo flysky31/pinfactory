@@ -950,8 +950,10 @@ input[type=number] {
   padding-bottom: 7px;
   overflow:hidden;
 }
+
 #container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-next, #container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-prev {
   color: #fff;
+  font-size:25px;
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-next {
   right: 0;
