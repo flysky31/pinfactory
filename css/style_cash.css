@@ -948,6 +948,7 @@ input[type=number] {
 #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper {
   padding: 0 36px;
   padding-bottom: 7px;
+  overflow:hidden;
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-next, #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-prev {
   color: #fff;
