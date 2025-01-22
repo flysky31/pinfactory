@@ -950,13 +950,13 @@ input[type=number] {
   padding-bottom: 7px;
   overflow:hidden;
 }
-#container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-next, #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-prev {
+#container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-next, #container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-prev {
   color: #fff;
 }
-#container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-next {
+#container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-next {
   right: 0;
 }
-#container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-button-prev {
+#container #menu_area .top_category .tabs_area li.tab_swiper .swiper-button-prev {
   left: 0;
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper .swiper-scrollbar {
