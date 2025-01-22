@@ -929,6 +929,7 @@ input[type=number] {
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper {
   width: 77%;
+  position:relative;
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper .tab-link {
   padding: 0;
