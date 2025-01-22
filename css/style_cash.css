@@ -946,7 +946,7 @@ input[type=number] {
   background: #fff;
 }
 #container #menu_area .top_category .tabs_area li.tab_swiper .menuSwiper {
-  padding: 0 36px;
+  margin: 0 36px;
   padding-bottom: 7px;
   overflow:hidden;
 }
