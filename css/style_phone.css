@@ -550,7 +550,14 @@ input[type=number] {
   text-align: center;
 }
 #container #sub-cont .item-datail .item-datail-tab li a {
-  color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  color: #999;
 }
 #container #sub-cont .item-datail .item-datail-tab li.on {
   color: #FF8800;
