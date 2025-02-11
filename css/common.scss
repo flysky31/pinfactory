@@ -16,12 +16,13 @@ body {
     max-width: 768px;
     margin: 0 auto;
     position: relative;
+    overflow-x: hidden;
     font-family: "Pretendard-Regular";
     
 }
 #wrap{
     position: relative;
-    overflow-x: hidden;
+
 }
 
 .inner {
